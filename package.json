@@ -2,7 +2,7 @@
   "name": "babel-plugin-react-jsx-classnames",
   "version": "1.0.0",
   "description": "在react项目中className的值自动加上className()",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {},
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
-    "@babel/helper-module-imports": "^7.12.13"
+    "@babel/helper-module-imports": "^7.12.13",
+    "rollup": "^2.40.0"
   }
 }
