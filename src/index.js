@@ -18,7 +18,6 @@ module.exports = function ({ types: t }) {
           );
         }
       },
-      // ASTNodeTypeHere(path, state) { }
     }
   };
 };
