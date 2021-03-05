@@ -1,7 +1,7 @@
 # babel-plugin-react-jsx-classnames
 在react项目中className的值自动加上className()
 
-```
+```javascript
 // 转换前
 <div className={expression}></div>
 
@@ -22,7 +22,7 @@ yarn add babel-plugin-react-jsx-classnames -D
 
 使用插件
 
-```
+```javascript
 {
   "presets": [
     ...
@@ -42,7 +42,7 @@ yarn add babel-plugin-react-jsx-classnames -D
 
 2. jsx className有多个类名的时候比较麻烦, 所以使用classnames友好的解决了这个问题
 
-   ```
+   ```javascript
    // 不使用classnames
    <div className={`${styles.wrap ${styles.bgColor}}`}></div>
    <div className={[styles.wrap,styles.bgColor].join(' ')}></div>
