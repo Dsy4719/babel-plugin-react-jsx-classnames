@@ -1,0 +1,29 @@
+{
+  "name": "babel-plugin-react-jsx-classnames",
+  "version": "1.0.0",
+  "description": "在react项目中className的值自动加上className()",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dsy4719/babel-plugin-react-jsx-classnames.git"
+  },
+  "keywords": [
+    "react",
+    "jsx",
+    "classnames"
+  ],
+  "author": "day",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dsy4719/babel-plugin-react-jsx-classnames/issues"
+  },
+  "homepage": "https://github.com/Dsy4719/babel-plugin-react-jsx-classnames#readme",
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/helper-module-imports": "^7.12.13"
+  }
+}
