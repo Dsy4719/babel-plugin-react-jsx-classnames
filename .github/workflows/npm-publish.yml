@@ -18,6 +18,9 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
 
+      - name: Install package
+        run: npm install
+
       - name: Build project
         run: npm run build
 
