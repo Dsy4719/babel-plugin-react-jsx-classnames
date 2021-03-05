@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-react-jsx-classnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "在react项目中className的值自动加上className()",
   "main": "lib/index.js",
   "scripts": {
