@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "在react项目中className的值自动加上className()",
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "rollup ./src/index.js --file ./lib/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dsy4719/babel-plugin-react-jsx-classnames.git"
