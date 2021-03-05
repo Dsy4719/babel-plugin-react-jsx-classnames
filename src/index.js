@@ -16,7 +16,6 @@ module.exports = function ({ types: t }) {
               [path.node.value.expression]
             )
           );
-          console.log(111);
         }
       },
     }
