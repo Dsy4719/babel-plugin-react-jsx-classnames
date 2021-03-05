@@ -1,6 +1,6 @@
-const { addDefault } = require('@babel/helper-module-imports');
+import { addDefault } from '@babel/helper-module-imports';
 
-module.exports = function ({ types: t }) {
+export default function ({ types: t }) {
   return {
     visitor: {
       JSXAttribute(path, state) {
@@ -20,4 +20,4 @@ module.exports = function ({ types: t }) {
       },
     }
   };
-};
+}
