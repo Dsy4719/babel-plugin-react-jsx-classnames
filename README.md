@@ -1,13 +1,14 @@
 # babel-plugin-react-jsx-classnames
-在react项目中className的值自动加上className()
+
+在 react 项目中 className 的值自动加上 className()
 
 ```javascript
 // 转换前
-<div className={expression}></div>
+<div className={expression}></div>;
 
 // 转换后
-import classNames from 'classnames'
-<div className={classNames(expression)}></div>
+import classNames from "classnames";
+<div className={classNames(expression)}></div>;
 ```
 
 ## 使用
@@ -36,23 +37,21 @@ yarn add babel-plugin-react-jsx-classnames -D
 
 ## 为什么
 
-此babel插件是为了开发者方便
+此 babel 插件是为了开发者方便
 
-1.  因为使用classnames的时候, 每次都需要引入classnames, 产生重复代码块
+1.  因为使用[classnames](https://github.com/JedWatson/classnames)的时候, 每次都需要引入 classnames, 产生重复代码块
 
-2. jsx className有多个类名的时候比较麻烦, 所以使用classnames友好的解决了这个问题
+2.  jsx className 有多个类名的时候比较麻烦, 所以使用 classnames 友好的解决了这个问题
 
-   ```javascript
-   // 不使用classnames
-   <div className={`${styles.wrap ${styles.bgColor}}`}></div>
-   <div className={[styles.wrap,styles.bgColor].join(' ')}></div>
-   
-   // 使用classnames
-   <div className={className([styles.wrap,styles.bgColor])}></div>
-   
-   // 使用babel-plugin-react-jsx-classnames
-   <div className={[styles.wrap,styles.bgColor]}></div>
-   
-   ```
+    ```javascript
+    // 不使用classnames
+    <div className={`${styles.wrap} ${styles.bgColor}`}></div>
+    <div className={[styles.wrap,styles.bgColor].join(' ')}></div>
 
-   
+    // 使用classnames
+    <div className={className([styles.wrap,styles.bgColor])}></div>
+
+    // 使用babel-plugin-react-jsx-classnames
+    <div className={[styles.wrap,styles.bgColor]}></div>
+
+    ```
