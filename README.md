@@ -39,7 +39,7 @@ yarn add babel-plugin-react-jsx-classnames -D
 
 如果你项目中使用了[classnames](https://github.com/JedWatson/classnames), 又因为每次都需要繁琐的引用 classnams, 想要省了这些步骤, 那么你可能正好需要此插件.
 
-1.  因为使用classnames的时候, 每次都需要引入 classnames, 产生重复代码块
+1.  因为使用 classnames 的时候, 每次都需要引入 classnames, 产生重复代码块
 
 2.  jsx className 有多个类名的时候比较麻烦, 所以使用 classnames 友好的解决了这个问题
 
